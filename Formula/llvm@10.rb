@@ -82,10 +82,9 @@ class LlvmAT10 < Formula
   end
 
   bottle do
-    root_url "https://dl.bintray.com/nathanwhit/bottles-main"
+    root_url "https://github.com/nathanwhit/homebrew-tap-main/releases/download/llvm-10.0.1_2"
     cellar :any
-    rebuild 1
-    sha256 "55a7907b8748db04df0fa3a40485f99ed58e1fe762c8a741c0b15602ddc26c64" => :catalina
+    sha256 "3a20b118a4f7320a5dc6524214bd7c150603477be1bec9d0168863e7f9b21208" => :catalina
   end
 
   # Clang cannot find system headers if Xcode CLT is not installed
